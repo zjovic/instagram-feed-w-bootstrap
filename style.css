@@ -1,0 +1,40 @@
+.thumbnail {
+    height: 300px;
+}
+
+.thumbnail img {
+    object-fit: cover;
+}
+
+.card-footer {
+    background: transparent;
+    border: none;
+}
+
+.nav-item .nav-link {
+    color: gray;
+    line-height: 16px;
+    padding: 15px 18px;
+}
+
+.nav-item .nav-link.active {
+    background: gray;
+}
+
+.card-header > * {
+    margin: 0
+}
+
+.tab-pane {
+    margin-bottom: 30px;
+}
+
+.dropdown-menu > li:last-of-type > .dropdown-item {
+    margin-top: 5px;
+    border-top: 1px solid lightgray;
+}
+
+.logo {
+    height: 28px;
+    width: auto;
+}
