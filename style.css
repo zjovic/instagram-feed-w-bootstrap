@@ -1,3 +1,15 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    height: 60px;
+}
+
+.dropdown-toggle::after {
+    vertical-align: middle;
+}
+
 .thumbnail {
     height: 300px;
 }
@@ -37,4 +49,16 @@
 .logo {
     height: 28px;
     width: auto;
+}
+
+.modal-icons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.modal-icons > .icon {
+    padding: 3px 6px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-right: 5px;
 }
